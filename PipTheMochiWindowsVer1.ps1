@@ -88,7 +88,7 @@ Write-host 'Made by nzayan_25!'
 Write-host 'Search up "nzayan_25" without quotes, in Google!'
 Write-host 'Version 1, EARLY AND UNFINISHED'
 if ($ModifierName -eq "0") {
-    Write-host No modifier name specified, this might be the original script!
+    Write-host No modifier name specified',' this might be the original script!
 } else {
     Write-host Modified by $ModifierName!
 }
