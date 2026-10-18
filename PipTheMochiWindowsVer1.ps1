@@ -84,9 +84,9 @@ $Host.UI.RawUI.ForegroundColor = "$TextWindowColor" # Color
 Clear-Host  # This refreshes the screen to apply the background color everywhere
 
 Write-host Name: $PipName!
-Write-host Made by nzayan_25!
-Write-host Search up '"'nzayan_25'"' without quotes, in Google!
-Write-host Version 1, EARLY AND UNFINISHED
+Write-host 'Made by nzayan_25!'
+Write-host 'Search up "nzayan_25" without quotes, in Google!'
+Write-host 'Version 1, EARLY AND UNFINISHED'
 if ($ModifierName -eq "0") {
     Write-host No modifier name specified, this might be the original script!
 } else {
